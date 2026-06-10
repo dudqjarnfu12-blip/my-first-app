@@ -1,90 +1,31 @@
-# Hello SKKU 🎓
+# 🎬 Film Production Dashboard
 
-A simple "Hello World" web application built with [Streamlit](https://streamlit.io/) — a great starting point for learning how to build interactive Python web apps.
+A Streamlit web app for analyzing film production data such as movie budgets, revenues, genres, profit, and ROI.
 
-## Demo
+## 📌 Project Description
 
-When you run this app, you'll see:
+This project is a simple interactive dashboard for film production analysis.  
+Users can view pre-loaded famous movies, add new movies, calculate ROI, compare budget and revenue, and filter movies by decade.
 
-- A title: **Hello, SKKU! 🎓**
-- A short message: *My first web app*
+## ✨ Features
 
-## Requirements
+- Add new movies with title, director, year, genre, budget, and revenue
+- Automatically calculate profit and ROI
+- Compare movie budget and revenue with a bar chart
+- Show genre distribution with a pie chart
+- Filter movies by decade
+- Display key metrics such as total budget, total revenue, total profit, and average ROI
 
-- Python 3.8 or higher
-- [Streamlit](https://streamlit.io/)
+## 🛠️ Tools Used
 
-## Installation
+- Python
+- Streamlit
+- Pandas
+- Plotly
 
-1. **Clone this repository**
+## ▶️ How to Run
 
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
-   ```
-
-2. **(Optional) Create a virtual environment**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate     # macOS / Linux
-   venv\Scripts\activate        # Windows
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   pip install streamlit
-   ```
-
-## Usage
-
-Run the app with:
+Install the required libraries:
 
 ```bash
-streamlit run app.py
-```
-
-Then open your browser at [http://localhost:8501](http://localhost:8501).
-
-## Project Structure
-
-```
-.
-├── app.py          # Main Streamlit application
-└── README.md       # Project documentation
-```
-
-## Code Overview
-
-```python
-import streamlit as st
-
-st.title("Hello, SKKU! 🎓")
-st.write("My first web app")
-```
-
-| Function | Description |
-|----------|-------------|
-| `st.title()` | Renders a large title at the top of the page. |
-| `st.write()` | A general-purpose display function for text, data, charts, and more. |
-
-## Next Steps
-
-Try extending the app with:
-
-- `st.text_input()` — capture user input
-- `st.button()` — add interactive buttons
-- `st.slider()` — let users pick a numeric value
-- `st.dataframe()` — display tables
-- `st.line_chart()` — quick visualizations
-
-See the [Streamlit documentation](https://docs.streamlit.io/) for more.
-
-## License
-
-This project is released under the MIT License — see the `LICENSE` file for details.
-
-## Author
-
-Created as part of coursework at **Sungkyunkwan University (SKKU)**.
+pip install -r requirements.txt
